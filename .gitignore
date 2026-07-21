@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# Uncomment if you don't want to version large binaries in git directly
+# (consider Git LFS instead for models/ and data/ if your repo host limits file size)
+# models/*.pt
+# data/VedOCR_kaggle_release/
