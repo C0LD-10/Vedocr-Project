@@ -1,0 +1,11 @@
+torch>=2.0
+numpy
+pandas
+pillow
+matplotlib
+pyyaml
+
+# only needed to run/edit notebooks/VedOCR_pipeline.ipynb
+jupyter
+nbconvert
+ipykernel
