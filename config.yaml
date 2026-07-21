@@ -1,0 +1,21 @@
+data:
+  root: data/VedOCR_kaggle_release
+  vocab_path: data/VedOCR_kaggle_release/vocab/char_vocab.txt
+
+preprocessing:
+  target_h: 32
+  target_w: 384
+
+training:
+  batch_size: 16
+  lr: 0.0003
+  epochs: 20        # recommended for a real run on a GPU -- see reports/RESULTS.md
+  seed: 42
+
+model:
+  rnn_hidden: 256
+  rnn_layers: 2
+
+paths:
+  checkpoint: models/vedocr_crnn_ckpt.pt
+  pipeline: models/vedocr_pipeline.pt
