@@ -32,6 +32,7 @@ in more than one split.
 Full data understanding, preprocessing, validation-strategy, and modeling rationale live in
 [`reports/VedOCR_planning_guide.md`](reports/VedOCR_planning_guide.md).
 
+
 ## Quickstart
 
 ```bash
